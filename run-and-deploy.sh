@@ -20,7 +20,7 @@ docker image prune -f
 
 # Build the Docker image
 echo "Building the Docker image..."
-docker build -t $IMAGE_NAME .
+docker build --no-cache -t $IMAGE_NAME .
 
 # Run the Docker container
 echo "Running the Docker container..."
