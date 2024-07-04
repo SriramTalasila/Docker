@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
 COPY ./dist/routing-demo /usr/share/nginx/html/flowcs
 
