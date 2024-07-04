@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY ./dist/routing-demo /usr/share/nginx/html
+COPY ./dist/routing-demo /usr/share/nginx/html/flowcs
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
