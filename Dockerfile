@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY ./dist/routing-demo /usr/share/nginx/html/flowcs
+COPY ./dist/routing-demo /usr/share/nginx/html
 
 EXPOSE 8080
 
